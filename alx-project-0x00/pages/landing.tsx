@@ -8,15 +8,15 @@ const Landing: React.FC = () => {
             <Card />
             <Button 
                 title = "small"
-                className = "px-2 py-1 rounded-sm"
+                styles = "px-2 py-1 rounded-sm"
             />
             <Button 
                 title = "medium"
-                className = "px-4 py-2 rounded-md"
-            />
+                styles = "px-4 py-2 rounded-md"
+            />styles
             <Button 
                 title = "large"
-                className = "px-6 py-3 rounded-full"
+                styles = "px-6 py-3 rounded-full"
             />
         </div>
     )
